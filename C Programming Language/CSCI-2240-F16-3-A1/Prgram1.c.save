@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(void)
+{
+	int numQuest;
+	int diffLevel;
+	printf("How many questions for this test(1-20)?");
+	scanf("%d", &numQuest);
+	printf("Select difficulty (1-4):");
+	scanf("%d", &diffLevel);
+
